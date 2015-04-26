@@ -55,12 +55,12 @@
     //Mudar as configurações padrões do bot e ter certeza que elas foram carregadas corretamente
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "Bot da Zuera",
         language: "portuguese",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true ou false
-        chatLink: "https://rawgit.com/" + fork + "/basicBot/master/lang/pt.json",
+        chatLink: "https://rawgit.com/" + fork + "/ZueraBOT/master/lang/pt.json",
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 60,
@@ -99,9 +99,9 @@
         opLink: null,
         rulesLink: null,
         themeLink: null,
-        fbLink: null,
+        fbLink: "http://goo.gl/csbFQS",
         youtubeLink: null,
-        website: null,
+        website: "http://goo.gl/x6Zmnx",
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
