@@ -51,7 +51,7 @@
     }
     //Change the bots default settings and make sure they are loaded on launch
 
-      localStorage.setItem("basicBotsettings", JSON.stringify({
+    localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "Professor Croodiiz",
         language: "portuguese",
         startupCap: 1, // 1-200
